@@ -3,7 +3,6 @@ class LogsController < ApplicationController
 
   # GET /logs or /logs.json
   def index
-    @test = true
     @logs = Log.all
   end
 
