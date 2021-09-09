@@ -46,7 +46,7 @@ You should be able to see something like this:
 
 ### Git and Task Submission
 Create another branch labelled as your name. You may click on the icon beside the trash bin to split your terminal, so that you can use git on one side and view the instance logs on another.
-![split_term](gitpod_images/split_term.png)
+![split_term](task_images/split_term.png)
 For e.g
 
     git checkout -b <name>
