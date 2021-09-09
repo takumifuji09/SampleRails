@@ -56,7 +56,7 @@ Double check if the push is successful in the repository on Github.
 
 
 ## Task
-Currently there is an existing "Log" table with 4 attributes: Category, Description, Ranking. We will be making adjustments to the table, and the view of the page in the following tasks.
+Currently there is an existing "Log" table with 3 attributes: Category, Description, Ranking. We will be making adjustments to the table, and the view of the page in the following tasks.
 
 This is a general table for logging data, but in this task we want to log food data. Click on new log and fill in the following content in the fields to try it out.
 
