@@ -12,11 +12,13 @@ Like this:
 
     gitpod.io/#https://github.com/takumifuji09/SampleRails
 
+Visual Studio Code will pop-up in the browser. This will be the coding environment for this task.
+
 Type in the following commands in bash, within the in-built terminal of Visual Studio Code.
 
     cd template-rails-main/
 
-Install packages and dependencies
+Install packages and dependencies (~5 minutes)
 
     bundle install
     rails webpacker:install
@@ -29,7 +31,10 @@ Start the application
 
     rails server -b 0.0.0.0
 
-At this point, there should be a prompt at the bottom right of the screen to open up the "localhost" instance of the application. 
+At this point, there should be a prompt at the bottom right of the screen. Click on "Open Preview" or "Open Browser" to open up the "localhost" instance of the application.
+
+![preview](task_images/preview.png)
+
 Alternatively, you may also click on the link that comes up in the terminal.
 
 ![terminal](task_images/home1.png)
@@ -40,22 +45,18 @@ You should be able to see something like this:
 
 
 ### Git and Task Submission
-Before working on the task, check that you are able to commit and push code into the repository.
-
-Create another branch labelled as your name.
+Create another branch labelled as your name. You may click on the icon beside the trash bin to split your terminal, so that you can use git on one side and view the instance logs on another.
+![split_term](gitpod_images/split_term.png)
 For e.g
 
     git checkout -b <name>
 
-You may create a txt file, stage it, commit it, and push it. You can check the changes made in the repository on GitHub. This is a very crucial step to check if you can submit your code.
-
-Once the task is completed, submit a pull request.
-
-Do note that the container might timeout, so its best to do frequent commits with meaningful messages.
+Create a sample txt file, stage it, commit it and push it.
+Double check if the push is successful in the repository on Github.
 
 
 ## Task
-Currently there is an existing "Log" table with 3 attributes: Category, Description, Ranking. We will be making adjustments to the table, and the view of the page in the following tasks.
+Currently there is an existing "Log" table with 4 attributes: Category, Description, Ranking. We will be making adjustments to the table, and the view of the page in the following tasks.
 
 This is a general table for logging data, but in this task we want to log food data. Click on new log and fill in the following content in the fields to try it out.
 
