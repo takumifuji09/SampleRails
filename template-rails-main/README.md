@@ -44,17 +44,6 @@ You should be able to see something like this:
 ![starting_screen](task_images/start.png)
 
 
-### Git and Task Submission
-Create another branch labelled as your name. You may click on the icon beside the trash bin to split your terminal, so that you can use git on one side and view the instance logs on another.
-![split_term](task_images/split_term.png)
-For e.g
-
-    git checkout -b <name>
-
-Create a sample txt file, stage it, commit it and push it.
-Double check if the push is successful in the repository on Github.
-
-
 ## Task
 Currently there is an existing "Log" table with 3 attributes: Category, Description, Ranking. We will be making adjustments to the table, and the view of the page in the following tasks.
 
