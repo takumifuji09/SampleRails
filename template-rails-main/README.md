@@ -35,9 +35,6 @@ At this point, there should be a prompt at the bottom right of the screen. Click
 
 ![preview](task_images/preview.png)
 
-Alternatively, you may also click on the link that comes up in the terminal.
-
-![terminal](task_images/home1.png)
 
 You should be able to see something like this:
 
